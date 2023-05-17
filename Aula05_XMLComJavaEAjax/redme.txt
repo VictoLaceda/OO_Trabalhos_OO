@@ -1,0 +1,22 @@
+Escreva uma página que tenha uma caixa de texto e um botão pesquisar por título, quando o botão for pressionado deve ser feito uma requisição assíncrona solicitando o livro com o título informado na caixa de texto. No lado do servidor escreva um código que filtre a livraria e retorne para o cliente um código no formato XML apenas com o livro com o título especificado. Por exemplo, se na caixa de texto for digitado "XQuery Kick Start" então deve ser retornado apenas o seguinte conteúdo:
+<livro categoria="web">
+        <titulo lang="en">XQuery Kick Start</titulo>
+        <autor>James McGovern</autor>
+        <autor>Per Bothner</autor>
+        <autor>Kurt Cagle</autor>
+        <autor>James Linn</autor>
+        <autor>Vaidyanathan Nagarajan</autor>
+        <ano>2003</ano>
+        <preco>49.99</preco>
+    </livro>
+
+Não envie a livraria inteira para o cliente, envie apenas o livro que foi solicitado.
+
+Escreva uma página Web que tenha uma caixa de texto onde o usuário possa informar o ano do livro, uma caixa de combinação (select/option) onde o usuário possa escolher entre as opções "maior que", "menor que", "igual a" e tenha também um botão que quando clicado deve fazer uma requisição assíncrona e solicitar a livraria apenas com os livros onde o ano esteja de acordo com a escolha do usuário. No lado do servidor você deve filtrar a livraria removendo todos os livros que não estejam de acordo com a escolha do usuário e enviar para o cliente a livraria apenas com os livros onde o ano coincidam com a escolha do usuário.
+Escreva uma página que tenha uma caixa de texto e um botão pesquisar por autor, quando o botão for pressionado deve ser feito uma requisição assíncrona solicitando o livro com o autor informado na caixa de texto. No lado do servidor escreva um código que filtre a livraria e retorne para o cliente um código no formato XML apenas com os livros com o autor especificado. Observe que um livro pode ter vários autores e um autor pode escrever vários livros.
+Escreva uma página que tenha uma caixa de texto e um botão pesquisar por categoria, quando o botão for pressionado deve ser feito uma requisição assíncrona solicitando o livro com a categoria informada na caixa de texto. No lado do servidor escreva um código que filtre a livraria e retorne para o cliente um código no formato XML apenas com os livros com a categoria especificada.
+
+
+Observações:
+Seu código deve funcionar independente de quantos livros existam na livraria;
+Traga o código pronto para a próxima aula.
