@@ -3,7 +3,8 @@
 
 
 function leitura() {
-    alert(this.responseXML);
+    const elem = this.responseXML.documentElement;
+    const elem.getElementsByTagName('livro').;
 }
 
 function ajax(get, ajax) {
@@ -14,3 +15,5 @@ function ajax(get, ajax) {
 }
 
 ajax("GET", "dados.xml");
+
+//document
