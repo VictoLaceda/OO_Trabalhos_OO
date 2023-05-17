@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Ysabeau:ital,wght@0,1;0,100;1,100&display=swap');
+
+
+section.comand div#titulo{
+    margin: 0 auto;
+    background-color: maroon;
+    color: white;
+    font-size: 800%;
+    min-width: fit-content;
+    max-width: 40%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+section.comand div#desc{
+    margin: 0 auto;
+    background-color: bisque;
+    color: salmon;
+    min-width: fit-content;
+    font-size: 200%;
+    max-width: 40%;
+    text-align: center;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+section.explicar{
+    margin: 0 auto;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    max-width: 95%;
+    display: none;
+    padding: 0%;
+    height: 0%;
+}
+
+section.explicar h2{
+    color: white;
+    font-size: 300%;
+}
+
+section.explicar h4{
+    color: white;
+    font-size: 150%;
+}
+
+section.explicar p{
+    color: white;
+    font-size: 100%;
+}
