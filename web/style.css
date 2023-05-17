@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Ysabeau:ital,wght@0,1;0,100;1,100&display=swap');
+
+
+section.comand div#titulo{
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    font-size: 800%;
+    min-width: fit-content;
+    max-width: 40%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    
+    
+}
+
+section.comand div#desc{
+    margin: 0 auto;
+    background-color: aqua;
+    color: black;
+    min-width: fit-content;
+    font-size: 200%;
+    word-wrap: break-word;
+    max-width: 40%;
+    text-align: center;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+button.titulo{
+    margin: 0 auto;
+    background-color: rgb(89, 248, 105);
+    color: black;
+    min-width: fit-content;
+    font-size: 200%;
+    max-width: 40%;
+    word-wrap: break-word;
+    text-align: center;
+    font-family: 'Ysabeau', sans-serif;
+    display: none;
+    border-radius: 4px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+button.titulo:hover{
+    background-color: #003d4d;
+    color: white;
+  transition: background-color 0.5s ease-in-out;
+}
+
+section.explicar{
+    margin: 0 auto;
+    color: white;
+    max-width: 95%;
+    display: block;
+    padding: 0%;
+    height: 0%;
+}
+
+section.explicar h2{
+    color: rgb(11, 1, 1);
+    font-family: 'Amatic SC', cursive;
+    font-size: 300%;
+    position: inherit;
+   
+}
+
+section.explicar p{
+    color: rgb(66, 65, 65);
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 150%;
+    left: 20%;
+    position: inherit;
+
+}
+
+section.explicar ul{
+    color: rgb(139, 12, 12);
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 150%;
+    left: 50%;
+    position: inherit;
+
+}
+
+div.input{
+    margin: 0 auto;
+    background-color: rgb(89, 248, 105);
+    color: black;
+    font-size: 200%;
+    max-width: 40%;
+    text-align: center;
+    font-family: 'Ysabeau', sans-serif;
+    border-radius: 4px;
+}
+
+div.input label{
+    float: left;
+    width: 30%;
+} 
+div.input input, textarea{
+    width: 50%;
+
+}
+
+.stylegen{
+    margin: 0 auto;
+    background-color: rgb(196, 243, 235);
+    color: black;
+    font-size: 80%;
+    max-width: 40%;
+    text-align: center;
+    font-family: 'Ysabeau', sans-serif;
+    border-radius: 4px;
+}
+
+button.stylegen:hover{
+    cursor: pointer;
+    transition: 1s;
+    background-color: blue;
+    color: wheat;
+}
