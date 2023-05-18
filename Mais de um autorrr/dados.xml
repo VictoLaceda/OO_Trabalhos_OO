@@ -30,4 +30,26 @@
         <ano>2003</ano>
         <preco>39.95</preco>
     </livro>
+    <livro categoria="web" cover="paperback">
+        <titulo lang="pt-br">A blibia</titulo>
+        <autor>Arquidiocese de Palmas</autor>
+        <ano>2015</ano>
+        <preco>00.01</preco>
+    </livro>
+    <livro categoria="web" cover="paperback">
+        <titulo lang="pt-br">Um universo da casca de noz</titulo>
+        <autor>Stephen hauking</autor>
+        <ano>1950</ano>
+        <preco>59.95</preco>
+    </livro>
+    <livro categoria="web" cover="paperback">
+        <titulo lang="pt-br">Cada inserção dentro do xml gera </titulo>
+        <autor>Posso colocar</autor>
+        <autor>Varios autores</autor>
+        <autor>Infinitos autores</autor>
+        <autor>ainda vai continuar</autor>
+        <autor>funcionando</autor>
+        <ano>2012</ano>
+        <preco>00.05</preco>
+    </livro>
 </livraria>
