@@ -56,4 +56,8 @@ function ajax(get, url, callback) {
     xhttp.send();
 }
 
-ajax("GET", "dados.xml", jogaParaPagina);
+ajax("GET", "colorido.xml", jogaParaPagina);
+
+document.getElementsByTagName('table')[0].onmousemove = () => {
+    console.log('aeeee')
+}
